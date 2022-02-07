@@ -1,4 +1,5 @@
 // Logs whenever multiple were deleted at once (save the messages in a transcript)
+// ❗ transcript package needed `npm i discord-html-transcripts` ❗
 
 const { MessageEmbed, Message, WebhookClient, Client } = require("discord.js");
 const discordTranscripts = require('discord-html-transcripts');
