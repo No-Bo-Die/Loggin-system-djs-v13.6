@@ -1,4 +1,5 @@
 // Logs whenever a guild event is created
+// ❗ new `GUILD_SCHEDULED_EVENTS` intent needed to work ❗
 
 const { MessageEmbed, GuildScheduledEvent, Client } = require("discord.js");
 const LogsSetupData = require("../../Structures/Schemas/LogsSetupDB");
