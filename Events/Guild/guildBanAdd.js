@@ -14,7 +14,7 @@ module.exports = {
     });
     if (!Data) return;
     
-    const logChannel = ban.guild.channels.cache.get(Data.LogsChannel); // Enter your log channel ID
+    const logChannel = ban.guild.channels.cache.get(Data.LogsChannel); 
     const logs = await ban.guild.fetchAuditLogs({
       type: "MEMBER_BAN_ADD",
       limit: 1,
