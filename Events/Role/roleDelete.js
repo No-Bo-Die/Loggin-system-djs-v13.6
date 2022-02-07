@@ -29,7 +29,7 @@ module.exports = {
 
 
     if (log) { // If entry first entry is existing executes code
-      roleCreateEmbed.setDescription(`The role \`${role.name}\` has been deleted by \`${log.executor.tag}\``)
+      roleCreateEmbed.setDescription(`> The role \`${role.name}\` has been deleted by \`${log.executor.tag}\``)
 
       await createAndDeleteWebhook(roleCreateEmbed) // executes the function bellow with as parameter the embed name
     }
