@@ -1,4 +1,5 @@
 // Logs whenever an invite is created
+// ❗ ms package needed `npm i ms` ❗
 
 const { MessageEmbed, Invite } = require("discord.js");
 const ms = require("ms");
