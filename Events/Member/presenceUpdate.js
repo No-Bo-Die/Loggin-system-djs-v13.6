@@ -11,6 +11,7 @@ module.exports = {
    * @param {Client} client
    */
   async execute(oldPresence, newPresence, client) {
+    if (!oldPresence || !newPresence) return
     const Data = await LogsSetupData.findOne({
       GuildID: oldPresence.guild.id,
     });
@@ -25,7 +26,7 @@ module.exports = {
       .setFooter(oldPresence.guild.name)
 
     if (oldPresence.status !== newPresence.status) { // If status has changed execute code
-      userUpdateEmbed.setDescription(`The status of ${oldPresence.member} has ben updated`)
+      userUpdateEmbed.setDescription(`> The status of ${oldPresence.member} has ben updated`)
         .addFields(
           {
             name: "Old status",
