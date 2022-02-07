@@ -12,7 +12,7 @@ module.exports = {
    */
   async execute(invite) {
     const Data = await LogsSetupData.findOne({
-      GuildID: guild.id,
+      GuildID: invite.guild.id,
     });
     if (!Data) return;
     
