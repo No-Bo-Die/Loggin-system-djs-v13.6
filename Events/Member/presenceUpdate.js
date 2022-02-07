@@ -1,4 +1,5 @@
 // Logs whenever a user status changes
+// ❗ in big servers this one might spam the API ❗
 
 const { MessageEmbed, Client, Presence } = require("discord.js");
 const LogsSetupData = require("../../Structures/Schemas/LogsSetupDB");
