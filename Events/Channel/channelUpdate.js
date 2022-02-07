@@ -14,7 +14,7 @@ module.exports = {
    */
   async execute(oldChannel, newChannel) {
     const Data = await LogsSetupData.findOne({
-      GuildID: guild.id,
+      GuildID: oldChannel.guild.id,
     });
     if (!Data) return;
     
