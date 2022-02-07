@@ -15,6 +15,8 @@
 
 ◻ `This is just a template i share to yall, so no need to tell me "i dont like that" or "this would look better this way" idc, it is up to you for customization i just provide the system. I think you all know how to make an embed thats not too hard.`
 
+◻ `The path to the DB file in all the events and the setup command most likely will be wrong because i just share the files apart from each other not a fully usable bot, so make sure to input the right path in the setup command and all the events you might use.`
+
 ◻ `If the emojis in the embeds i made dont work, below is the server i got them from.`
 
 https://discord.gg/CDNsF86Dfe
