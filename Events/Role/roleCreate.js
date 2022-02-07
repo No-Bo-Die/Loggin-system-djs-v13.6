@@ -29,7 +29,7 @@ module.exports = {
 
 
     if (log) { // If entry first entry is existing executes code
-      roleCreateEmbed.setDescription(`The role \`${role.name}\` has been created by \`${log.executor.tag}\``)
+      roleCreateEmbed.setDescription(`> The role \`${role.name}\` has been created by \`${log.executor.tag}\``)
         .addFields(
           {
             name: "Color",
