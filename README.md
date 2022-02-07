@@ -7,13 +7,17 @@
 
 ◻ `I just realised i did all my footer the deprecated way i aint updating 30 filess rn`
 
-◻ `All of this events are made for a single guild, up to you to make them multi-guild using a DB.`
+◻ `I would also like to greatly thank @Roald Dahl#5787 for the multi guild system as i was too lazy to do it myself (specifically he provided me the command and DB file, along with the 5 lines at the start of every event to check the logging channel).`
 
 ◻ `In every file it says what the code below logs (the actions that it logs) and u can also see a lot of commented text in each event to show exactly how the code works, feel free to remove them as they take a lot of visual space.`
 
 ◻ `The userUpdate is not multi guild at all (as the name suggests) a user is someone out of the guild, in the current way it is, if a user is in one of the bot server's it will send the log in every server or just bug out, to resolve that u would have to use forEach loop between every server the bot is in and send the log message only in those the user is in too.`
 
 ◻ `This is just a template i share to yall, so no need to tell me "i dont like that" or "this would look better this way" idc, it is up to you for customization i just provide the system. I think you all know how to make an embed thats not too hard.`
+
+◻ `If the emojis in the embeds i made dont work, below is the server i got them from.`
+
+https://discord.gg/CDNsF86Dfe
 
 ◻ `The way i log is creating a webhook sending what i need in it and deleting it right after (you can see it by the function at the end of each file) feel free to remove the function and log however u want. If u plan using it tho u might wanna know that if the bot bugs out or anything and webhooks are starting to get created but never  are deleted (it happened to me because of an API issue, like it didnt log anything then 20 minutes later logged everything at once) u will have the error i shared below, just meaning u reached the 10 webhooks limit per channel so delete some/all of them.`
 
