@@ -29,4 +29,4 @@ https://discord.js.org/#/docs/discord.js/stable/class/Client
 
 Btw im sorry i know this is a lot of things to read :man_shrugging: 
 
-Feel free to le me know if you like it
+Feel free to le me know if you liked it
