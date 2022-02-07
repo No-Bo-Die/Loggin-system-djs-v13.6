@@ -5,7 +5,7 @@
 
 ◻ `It is crucial that you first understand two details about audit logs: first they are not guaranteed to arrive when you expect them (if at all), second there is no event which triggers when an audit log is created.`
 
-◻ `I just realised i did all my footer the deprecated way i aint updating 30 filess rn`
+◻ `I just realised i did all my footer the deprecated way i aint updating 30 files right now so here is how you can resolve that:` `<MessageEmbed>.setFooter({ text: String, iconURL?: String})`
 
 ◻ `I would also like to greatly thank @Roald Dahl#5787 for the multi guild system as i was too lazy to do it myself (specifically he provided me the command and DB file, along with the 5 lines at the start of every event to check the logging channel).`
 
@@ -35,4 +35,4 @@ https://discord.js.org/#/docs/discord.js/stable/class/Client
 
 Btw im sorry i know this is a lot of things to read :man_shrugging: 
 
-Feel free to le me know if you liked it
+Feel free to let me know if you liked it
