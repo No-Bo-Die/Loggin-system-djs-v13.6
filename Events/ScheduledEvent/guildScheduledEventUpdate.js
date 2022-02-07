@@ -1,4 +1,5 @@
 // Logs whenever a scheduled event url, channel, description, location, type, status, start time, end time changed
+// ❗ new `GUILD_SCHEDULED_EVENTS` intent needed to work ❗
 
 const { MessageEmbed, GuildScheduledEvent, Client } = require("discord.js");
 const LogsSetupData = require("../../Structures/Schemas/LogsSetupDB");
