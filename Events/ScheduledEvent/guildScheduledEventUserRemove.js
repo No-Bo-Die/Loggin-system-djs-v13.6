@@ -1,4 +1,5 @@
 // Logs whenever a user unsubscribes to an event
+// ❗ new `GUILD_SCHEDULED_EVENTS` intent needed to work ❗
 
 const { MessageEmbed, GuildScheduledEvent, User, Client } = require("discord.js");
 const LogsSetupData = require("../../Structures/Schemas/LogsSetupDB");
