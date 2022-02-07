@@ -5,11 +5,11 @@
 
 ◻ `It is crucial that you first understand two details about audit logs: first they are not guaranteed to arrive when you expect them (if at all), second there is no event which triggers when an audit log is created.`
 
-◻ `I just realised i did all my footer the deprecated way i aint updating 30 sourcebins rn, in `#common-errors`u can see the good way of doing them`
+◻ `I just realised i did all my footer the deprecated way i aint updating 30 filess rn`
 
 ◻ `All of this events are made for a single guild, up to you to make them multi-guild using a DB.`
 
-◻ `In every sourcebin it says what the file below logs (the actions that it logs) and u can also see a lot of commented text in each event to show exactly how the code works, feel free to remove them as they take a lot of visual space.`
+◻ `In every file it says what the code below logs (the actions that it logs) and u can also see a lot of commented text in each event to show exactly how the code works, feel free to remove them as they take a lot of visual space.`
 
 ◻ `The userUpdate is not multi guild at all (as the name suggests) a user is someone out of the guild, in the current way it is, if a user is in one of the bot server's it will send the log in every server or just bug out, to resolve that u would have to use forEach loop between every server the bot is in and send the log message only in those the user is in too.`
 
@@ -25,8 +25,8 @@ https://discord.js.org/#/docs/discord.js/stable/class/GuildAuditLogs
 
 https://discord.js.org/#/docs/discord.js/stable/class/Client
 
-(This is the work of 4 days  on and off so please leave the credits at the end of each files if u plan on using them, you can create a thread on this message for any report of an error or propose things in the ***system*** that could be improved, but please dont ask me how to do something or complain that u dont like the way an embed looks)
+(This is the work of 4 days on and off so please leave the credits at the end of each files if u plan on using them, you can DM me on discord for any report of an error or propose things in the ***system*** that could be improved, but please dont ask me how to do something or complain that u dont like the way an embed looks)
 
-Btw im sorry i know this is a lot of things to read, i never even thought myself i would ever go over the 4k characters limit per message with actual ***useful*** stuff and not some copy paste to test the limit :man_shrugging: 
+Btw im sorry i know this is a lot of things to read :man_shrugging: 
 
-Feel free to react with :noice_yes: if you approve this and read it all lol
+Feel free to le me know if you like it
