@@ -29,7 +29,7 @@ module.exports = {
   /**
    * @param {GuildMember} member
    * @param {CommandInteraction} interaction
-   */
+   */ 
   async execute(interaction) {
     try {
       const options = interaction.options;
