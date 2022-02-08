@@ -129,16 +129,16 @@ module.exports = {
       }
 
       if (oldGuild.discoverySplash !== newGuild.discoverySplash) { // If discovery splash image changed create embed
-        guildUpdateLogEmbed.setDescription(`> The disovery splash image of \`${oldGuild.name}\` has been updated by \`${log.executor.tag}\``)
-          .setImage(newGuild.disoverySplashURL())
+        guildUpdateLogEmbed.setDescription(`> The discovery splash image of \`${oldGuild.name}\` has been updated by \`${log.executor.tag}\``)
+          .setImage(newGuild.discoverySplashURL())
           .addFields(
             {
-              name: "Old disovery splash image",
-              value: oldGuild.disoverySplash ? `${oldGuild.disoverySplashURL()}` : "No disovery splash image before"
+              name: "Old discovery splash image",
+              value: oldGuild.discoverySplash ? `${oldGuild.discoverySplashURL()}` : "No discovery splash image before"
             },
             {
-              name: "New disovery splash image",
-              value: newGuild.disoverySplash ? `${newGuild.disoverySplashURL()}` : "No new disovery splash image"
+              name: "New discovery splash image",
+              value: newGuild.discoverySplash ? `${newGuild.discoverySplashURL()}` : "No new discovery splash image"
             }
           )
 
